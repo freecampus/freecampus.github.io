@@ -13,10 +13,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Subjects:
-      - All subjects: subjects/index.md
-      - Python: subjects/python.md
-      - Mathematics: subjects/mathematics.md
+  - Subjects: subjects/index.md
   - About: about.md
   - Contribute: contribute.md
 

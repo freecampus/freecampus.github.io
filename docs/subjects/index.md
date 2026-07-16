@@ -9,13 +9,13 @@ description: Explore free community-built courses in Python, mathematics, scienc
 Every FreeCampus subject starts from first principles and moves toward meaningful practice. Learn at your own pace, return whenever you need, and share what you discover.
 
 <div class="catalog-grid">
-  <a class="catalog-card" href="python/">
+  <a class="catalog-card" href="https://freecampus.org/python/" target="_blank" rel="noopener noreferrer">
     <span class="catalog-kicker">Computing · Open now</span>
     <h3>Python</h3>
     <p>Learn to think computationally and create useful programs with one of the world’s most approachable languages.</p>
     <span class="catalog-meta">6 learning modules <b>→</b></span>
   </a>
-  <a class="catalog-card" href="mathematics/">
+  <a class="catalog-card" href="https://freecampus.org/math/" target="_blank" rel="noopener noreferrer">
     <span class="catalog-kicker">Foundations · Open now</span>
     <h3>Mathematics</h3>
     <p>Develop number sense, algebraic fluency, and the habit of reasoning carefully from evidence.</p>
@@ -40,4 +40,3 @@ Every FreeCampus subject starts from first principles and moves toward meaningfu
 Courses are modular, practical, and designed for independent study. Each module combines a focused explanation, worked examples, exercises, and references for going deeper. Everything is published openly so it can be read, reused, translated, and improved.
 
 [Help create a subject →](../contribute/){ .inline-action }
-

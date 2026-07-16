@@ -59,7 +59,7 @@ description: FreeCampus is a global community creating rigorous, open learning m
     </div>
 
     <div class="subject-grid">
-      <a class="subject-card subject-featured" href="subjects/python/">
+      <a class="subject-card subject-featured" href="https://freecampus.org/python/" target="_blank" rel="noopener noreferrer">
         <span class="subject-number">01</span>
         <div class="subject-symbol" aria-hidden="true">&lt;/&gt;</div>
         <div class="subject-card-copy">
@@ -70,7 +70,7 @@ description: FreeCampus is a global community creating rigorous, open learning m
         <span class="card-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="subject-card" href="subjects/mathematics/">
+      <a class="subject-card" href="https://freecampus.org/math/" target="_blank" rel="noopener noreferrer">
         <span class="subject-number">02</span>
         <div class="subject-symbol subject-symbol-serif" aria-hidden="true">∑</div>
         <div class="subject-card-copy">
@@ -152,4 +152,3 @@ description: FreeCampus is a global community creating rigorous, open learning m
     <a class="circle-link" href="subjects/" aria-label="Explore all subjects"><span>Explore<br>subjects</span><b aria-hidden="true">↗</b></a>
   </div>
 </section>
-
