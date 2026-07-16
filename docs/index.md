@@ -1,0 +1,155 @@
+---
+title: Home
+description: FreeCampus is a global community creating rigorous, open learning materials in Python, mathematics, science, and more.
+---
+
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">A university without walls</p>
+      <h1>Learning belongs<br>to <em>everyone.</em></h1>
+      <p class="hero-intro">FreeCampus is a global community creating rigorous, open learning materials—so curiosity, not circumstance, determines how far you can go.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="subjects/">Explore subjects <span aria-hidden="true">→</span></a>
+        <a class="text-link" href="about/">Discover our mission <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbital orbital-one"></div>
+      <div class="orbital orbital-two"></div>
+      <div class="hero-seal">
+        <span class="seal-monogram">FC</span>
+        <span class="seal-rule"></span>
+        <span class="seal-year">OPEN · 2026</span>
+      </div>
+      <span class="art-label art-label-one">Learn freely</span>
+      <span class="art-label art-label-two">Share openly</span>
+      <svg class="art-curve" viewBox="0 0 610 610" fill="none">
+        <path d="M53 370C147 201 310 107 568 87" stroke="currentColor" stroke-width="1" stroke-dasharray="4 8"/>
+        <circle cx="53" cy="370" r="5" fill="currentColor"/>
+        <circle cx="568" cy="87" r="5" fill="currentColor"/>
+      </svg>
+    </div>
+  </div>
+  <div class="shell hero-index" aria-label="FreeCampus principles">
+    <span>01 · Open access</span>
+    <span>02 · Academic rigor</span>
+    <span>03 · Community built</span>
+  </div>
+</section>
+
+<section class="proof-bar" aria-label="FreeCampus at a glance">
+  <div class="shell proof-grid">
+    <p class="proof-lead">Education can be<br><em>both excellent and free.</em></p>
+    <div class="stat"><strong>100%</strong><span>Open access</span></div>
+    <div class="stat"><strong>∞</strong><span>Room to learn</span></div>
+    <div class="stat"><strong>1</strong><span>Shared campus</span></div>
+  </div>
+</section>
+
+<section class="section subjects-preview">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Fields of study</p>
+        <h2>Follow your curiosity.</h2>
+      </div>
+      <p>Start with the fundamentals. Build real understanding. Every subject is designed to take you from first principles to confident practice.</p>
+    </div>
+
+    <div class="subject-grid">
+      <a class="subject-card subject-featured" href="subjects/python/">
+        <span class="subject-number">01</span>
+        <div class="subject-symbol" aria-hidden="true">&lt;/&gt;</div>
+        <div class="subject-card-copy">
+          <p>Computing</p>
+          <h3>Python</h3>
+          <span>From your first expression to thoughtful, useful programs.</span>
+        </div>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card" href="subjects/mathematics/">
+        <span class="subject-number">02</span>
+        <div class="subject-symbol subject-symbol-serif" aria-hidden="true">∑</div>
+        <div class="subject-card-copy">
+          <p>Foundations</p>
+          <h3>Mathematics</h3>
+          <span>Patterns, proofs, and the language behind modern science.</span>
+        </div>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card" href="subjects/#science">
+        <span class="subject-number">03</span>
+        <div class="subject-symbol subject-symbol-serif" aria-hidden="true">λ</div>
+        <div class="subject-card-copy">
+          <p>Inquiry</p>
+          <h3>Science</h3>
+          <span>Observe closely, reason carefully, and understand our world.</span>
+        </div>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="subject-card subject-more" href="subjects/">
+        <span class="subject-number">04</span>
+        <div class="subject-symbol" aria-hidden="true">+</div>
+        <div class="subject-card-copy">
+          <p>Always growing</p>
+          <h3>More to explore</h3>
+          <span>See the library and help shape what comes next.</span>
+        </div>
+        <span class="card-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section learning-path">
+  <div class="shell path-grid">
+    <div class="path-copy">
+      <p class="eyebrow">Designed for understanding</p>
+      <h2>More than notes.<br>A path forward.</h2>
+      <p>Good learning material does more than provide answers. It builds intuition, creates space to practice, and helps you see how ideas connect.</p>
+      <a class="text-link text-link-light" href="subjects/">Browse the learning library <span aria-hidden="true">→</span></a>
+    </div>
+
+    <ol class="path-steps">
+      <li>
+        <span class="step-number">01</span>
+        <div><h3>Begin with an idea</h3><p>Clear explanations introduce the essential questions and concepts.</p></div>
+      </li>
+      <li>
+        <span class="step-number">02</span>
+        <div><h3>Learn by doing</h3><p>Purposeful examples and exercises turn knowledge into skill.</p></div>
+      </li>
+      <li>
+        <span class="step-number">03</span>
+        <div><h3>Make it your own</h3><p>Open materials invite you to adapt, improve, and share what you learn.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section manifesto">
+  <div class="shell manifesto-grid">
+    <p class="eyebrow">Our shared belief</p>
+    <blockquote>“Knowledge grows<br>when it is <em>given away.</em>”</blockquote>
+    <div class="manifesto-copy">
+      <p>No paywalls. No gatekeeping. No one-size-fits-all classroom. FreeCampus brings learners, educators, writers, and builders together to make an education worthy of everyone.</p>
+      <a class="button button-outline" href="contribute/">Build with us <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="closing-cta">
+  <div class="shell closing-inner">
+    <div>
+      <p class="eyebrow">Your next chapter</p>
+      <h2>Start anywhere.<br>Go everywhere.</h2>
+    </div>
+    <a class="circle-link" href="subjects/" aria-label="Explore all subjects"><span>Explore<br>subjects</span><b aria-hidden="true">↗</b></a>
+  </div>
+</section>
+

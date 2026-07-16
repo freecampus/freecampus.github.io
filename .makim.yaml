@@ -1,0 +1,31 @@
+groups:
+  pages:
+    tasks:
+      pre-build:
+        help: pre-build step
+        backend: bash
+        run: |
+          # Reserved for future content generation.
+          exit 0
+
+      build:
+        help: build the static website
+        hooks:
+          pre-run:
+            - task: pages.pre-build
+        run: mkdocs build --verbose --clean
+
+      preview:
+        help: preview the website dynamically
+        hooks:
+          pre-run:
+            - task: pages.pre-build
+        backend: bash
+        run: |
+          set -euo pipefail
+
+          HOST="${HOST:-127.0.0.1}"
+          PORT="${PORT:-8000}"
+
+          echo "Starting MkDocs preview at http://${HOST}:${PORT}/"
+          mkdocs serve --dev-addr "${HOST}:${PORT}" --watch docs --watch theme

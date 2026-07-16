@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="{{ config.theme.language | default('en') }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.meta.description | default(config.site_description) }}">
+    <meta name="theme-color" content="#f4f2eb">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.is_homepage %}{{ config.site_name }} — Learning belongs to everyone{% else %}{{ page.title }} · {{ config.site_name }}{% endif %}">
+    <meta property="og:description" content="{{ page.meta.description | default(config.site_description) }}">
+    <title>{% if page.is_homepage %}{{ config.site_name }} — Learning belongs to everyone{% else %}{{ page.title }} · {{ config.site_name }}{% endif %}</title>
+    <link rel="icon" href="{{ 'assets/images/favicon.svg' | url }}" type="image/svg+xml">
+    {% for path in config.extra_css %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+  </head>
+  <body class="{% if page.is_homepage %}home{% else %}inner-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href="{{ nav.homepage.url | url }}" aria-label="FreeCampus home">
+          <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+          <span class="brand-name">FreeCampus</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+          <ul>
+            {% for nav_item in nav %}
+              <li>
+                {% if nav_item.children %}
+                  <a href="{{ nav_item.children[0].url | url }}"{% if nav_item.active %} class="active"{% endif %}>{{ nav_item.title }}</a>
+                {% else %}
+                  <a href="{{ nav_item.url | url }}"{% if nav_item.active %} class="active" aria-current="page"{% endif %}>{{ nav_item.title }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+          <a class="nav-cta" href="{{ 'contribute/' | url }}">Join the community <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      {% if not page.is_homepage %}
+        <header class="page-masthead">
+          <div class="shell page-masthead-inner">
+            <p class="eyebrow">FreeCampus</p>
+            <h1>{{ page.title }}</h1>
+            {% if page.meta.intro %}<p class="page-intro">{{ page.meta.intro }}</p>{% endif %}
+          </div>
+        </header>
+      {% endif %}
+
+      <div class="{% if not page.is_homepage %}shell prose-layout{% endif %}">
+        {% if not page.is_homepage %}
+          <aside class="page-aside" aria-label="Section navigation">
+            <span>On this page</span>
+            <a href="#main-content">{{ page.title }}</a>
+            {% for toc_item in page.toc %}
+              <a href="{{ toc_item.url }}">{{ toc_item.title }}</a>
+            {% endfor %}
+          </aside>
+        {% endif %}
+        <article class="{% if not page.is_homepage %}prose{% endif %}">
+          {{ page.content }}
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-statement">
+          <a class="brand brand-footer" href="{{ nav.homepage.url | url }}">
+            <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+            <span class="brand-name">FreeCampus</span>
+          </a>
+          <p>Rigorous learning materials,<br>made open to all.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="{{ 'subjects/' | url }}">All subjects</a>
+          <a href="{{ 'subjects/python/' | url }}">Python</a>
+          <a href="{{ 'subjects/mathematics/' | url }}">Mathematics</a>
+        </div>
+        <div class="footer-column">
+          <h2>Community</h2>
+          <a href="{{ 'about/' | url }}">About us</a>
+          <a href="{{ 'contribute/' | url }}">Contribute</a>
+          <a href="{{ config.extra.social.github }}">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© {{ build_date_utc.strftime('%Y') }} FreeCampus. Open knowledge for an open world.</p>
+        <p>Built in public by learners and educators.</p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const button = document.querySelector('[data-nav-toggle]');
+        const navigation = document.querySelector('[data-navigation]');
+        if (!button || !navigation) return;
+
+        button.addEventListener('click', () => {
+          const open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          navigation.classList.toggle('is-open', !open);
+          document.body.classList.toggle('menu-open', !open);
+        });
+      })();
+    </script>
+  </body>
+</html>
