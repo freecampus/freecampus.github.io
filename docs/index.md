@@ -39,15 +39,6 @@ description: FreeCampus is a global community creating rigorous, open learning m
   </div>
 </section>
 
-<section class="proof-bar" aria-label="FreeCampus at a glance">
-  <div class="shell proof-grid">
-    <p class="proof-lead">Education can be<br><em>both excellent and free.</em></p>
-    <div class="stat"><strong>100%</strong><span>Open access</span></div>
-    <div class="stat"><strong>∞</strong><span>Room to learn</span></div>
-    <div class="stat"><strong>1</strong><span>Shared campus</span></div>
-  </div>
-</section>
-
 <section class="section subjects-preview">
   <div class="shell">
     <div class="section-heading">
@@ -106,49 +97,31 @@ description: FreeCampus is a global community creating rigorous, open learning m
   </div>
 </section>
 
-<section class="section learning-path">
-  <div class="shell path-grid">
-    <div class="path-copy">
-      <p class="eyebrow">Designed for understanding</p>
-      <h2>More than notes.<br>A path forward.</h2>
-      <p>Good learning material does more than provide answers. It builds intuition, creates space to practice, and helps you see how ideas connect.</p>
-      <a class="text-link text-link-light" href="subjects/">Browse the learning library <span aria-hidden="true">→</span></a>
+<section class="compact-mission">
+  <div class="shell mission-grid">
+    <div class="mission-intro">
+      <p class="eyebrow">Why FreeCampus</p>
+      <h2>Built for learning.<br>Open by design.</h2>
+      <p>Good education should be rigorous, welcoming, and available without a gatekeeper. We create practical materials that anyone can use—and anyone can help improve.</p>
+      <div class="mission-actions">
+        <a class="button button-light" href="subjects/">Start learning <span aria-hidden="true">→</span></a>
+        <a class="text-link text-link-light" href="contribute/">Contribute <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
 
-    <ol class="path-steps">
-      <li>
-        <span class="step-number">01</span>
-        <div><h3>Begin with an idea</h3><p>Clear explanations introduce the essential questions and concepts.</p></div>
-      </li>
-      <li>
-        <span class="step-number">02</span>
-        <div><h3>Learn by doing</h3><p>Purposeful examples and exercises turn knowledge into skill.</p></div>
-      </li>
-      <li>
-        <span class="step-number">03</span>
-        <div><h3>Make it your own</h3><p>Open materials invite you to adapt, improve, and share what you learn.</p></div>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<section class="section manifesto">
-  <div class="shell manifesto-grid">
-    <p class="eyebrow">Our shared belief</p>
-    <blockquote>“Knowledge grows<br>when it is <em>given away.</em>”</blockquote>
-    <div class="manifesto-copy">
-      <p>No paywalls. No gatekeeping. No one-size-fits-all classroom. FreeCampus brings learners, educators, writers, and builders together to make an education worthy of everyone.</p>
-      <a class="button button-outline" href="contribute/">Build with us <span aria-hidden="true">↗</span></a>
+    <div class="mission-principles">
+      <article>
+        <span>01</span>
+        <div><h3>Free to access</h3><p>No subscriptions or admissions. Begin whenever you are ready.</p></div>
+      </article>
+      <article>
+        <span>02</span>
+        <div><h3>Made to understand</h3><p>Clear explanations and purposeful practice put understanding first.</p></div>
+      </article>
+      <article>
+        <span>03</span>
+        <div><h3>Improved together</h3><p>Learners and educators review, adapt, and strengthen every resource.</p></div>
+      </article>
     </div>
-  </div>
-</section>
-
-<section class="closing-cta">
-  <div class="shell closing-inner">
-    <div>
-      <p class="eyebrow">Your next chapter</p>
-      <h2>Start anywhere.<br>Go everywhere.</h2>
-    </div>
-    <a class="circle-link" href="subjects/" aria-label="Explore all subjects"><span>Explore<br>subjects</span><b aria-hidden="true">↗</b></a>
   </div>
 </section>
