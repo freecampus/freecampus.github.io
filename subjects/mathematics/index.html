@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Study mathematics for free with rigorous, approachable community materials.">
+    <meta name="theme-color" content="#f4f2eb">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mathematics · FreeCampus">
+    <meta property="og:description" content="Study mathematics for free with rigorous, approachable community materials.">
+    <title>Mathematics · FreeCampus</title>
+    <link rel="icon" href="../../assets/images/favicon.svg" type="image/svg+xml">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.css">
+    
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href="../.." aria-label="FreeCampus home">
+          <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+          <span class="brand-name">FreeCampus</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+          <ul>
+            
+              <li>
+                
+                  <a href="../..">Home</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../" class="active">Subjects</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../../about/">About</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../../contribute/">Contribute</a>
+                
+              </li>
+            
+          </ul>
+          <a class="nav-cta" href="../../contribute/">Join the community <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      
+        <header class="page-masthead">
+          <div class="shell page-masthead-inner">
+            <p class="eyebrow">FreeCampus</p>
+            <h1>Mathematics</h1>
+            <p class="page-intro">Learn the language of patterns and proof through clear explanations, visual intuition, and deliberate practice.</p>
+          </div>
+        </header>
+      
+
+      <div class="shell prose-layout">
+        
+          <aside class="page-aside" aria-label="Section navigation">
+            <span>On this page</span>
+            <a href="#main-content">Mathematics</a>
+            
+              <a href="#reason-with-confidence">Reason with confidence</a>
+            
+          </aside>
+        
+        <article class="prose">
+          <h2 id="reason-with-confidence">Reason with confidence</h2>
+<p>Mathematics is not a collection of tricks to memorize. It is a way to describe structure, test ideas, and make careful arguments. This path emphasizes why methods work—not only how to use them.</p>
+<div class="module-list">
+  <div><span>01</span><h3>Numbers & structure</h3><p>Build strong intuition for quantities, operations, and relationships.</p></div>
+  <div><span>02</span><h3>Algebraic thinking</h3><p>Use symbols to express patterns and reason about the unknown.</p></div>
+  <div><span>03</span><h3>Functions & change</h3><p>Understand how quantities depend on and vary with one another.</p></div>
+  <div><span>04</span><h3>Geometry & space</h3><p>Explore shape, measurement, transformations, and proof.</p></div>
+  <div><span>05</span><h3>Data & uncertainty</h3><p>Draw responsible conclusions from variation and evidence.</p></div>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">A growing course</p>
+<p>FreeCampus materials are built in public. This learning path is being prepared by the community, and modules will be published as they pass review.</p>
+</div>
+<p><a class="inline-action" href="../../contribute/">Contribute to mathematics →</a></p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-statement">
+          <a class="brand brand-footer" href="../..">
+            <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+            <span class="brand-name">FreeCampus</span>
+          </a>
+          <p>Rigorous learning materials,<br>made open to all.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="../">All subjects</a>
+          <a href="../python/">Python</a>
+          <a href="./">Mathematics</a>
+        </div>
+        <div class="footer-column">
+          <h2>Community</h2>
+          <a href="../../about/">About us</a>
+          <a href="../../contribute/">Contribute</a>
+          <a href="https://github.com/freecampus">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© 2026 FreeCampus. Open knowledge for an open world.</p>
+        <p>Built in public by learners and educators.</p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const button = document.querySelector('[data-nav-toggle]');
+        const navigation = document.querySelector('[data-navigation]');
+        if (!button || !navigation) return;
+
+        button.addEventListener('click', () => {
+          const open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          navigation.classList.toggle('is-open', !open);
+          document.body.classList.toggle('menu-open', !open);
+        });
+      })();
+    </script>
+  </body>
+</html>

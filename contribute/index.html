@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Write, review, design, or build with the FreeCampus community.">
+    <meta name="theme-color" content="#f4f2eb">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contribute · FreeCampus">
+    <meta property="og:description" content="Write, review, design, or build with the FreeCampus community.">
+    <title>Contribute · FreeCampus</title>
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.css">
+    
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href=".." aria-label="FreeCampus home">
+          <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+          <span class="brand-name">FreeCampus</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+          <ul>
+            
+              <li>
+                
+                  <a href="..">Home</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../subjects/">Subjects</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../about/">About</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="./" class="active" aria-current="page">Contribute</a>
+                
+              </li>
+            
+          </ul>
+          <a class="nav-cta" href="./">Join the community <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      
+        <header class="page-masthead">
+          <div class="shell page-masthead-inner">
+            <p class="eyebrow">FreeCampus</p>
+            <h1>Contribute</h1>
+            <p class="page-intro">FreeCampus is made by people who share what they know. There is a place here for every thoughtful contribution.</p>
+          </div>
+        </header>
+      
+
+      <div class="shell prose-layout">
+        
+          <aside class="page-aside" aria-label="Section navigation">
+            <span>On this page</span>
+            <a href="#main-content">Contribute</a>
+            
+              <a href="#help-build-the-campus">Help build the campus</a>
+            
+              <a href="#how-to-begin">How to begin</a>
+            
+          </aside>
+        
+        <article class="prose">
+          <h2 id="help-build-the-campus">Help build the campus</h2>
+<p>You do not need to be a professor—or even an expert—to make FreeCampus better. Clear feedback from a first-time learner can be as valuable as a new chapter from an experienced teacher.</p>
+<div class="contribution-grid">
+  <div><span>Write</span><h3>Explain an idea</h3><p>Create lessons, examples, exercises, or a complete learning path in a subject you know well.</p></div>
+  <div><span>Review</span><h3>Make it stronger</h3><p>Check material for accuracy, clarity, accessibility, and the questions a learner may still have.</p></div>
+  <div><span>Build</span><h3>Improve the platform</h3><p>Help with the site, learning tools, documentation, testing, or other open infrastructure.</p></div>
+  <div><span>Learn</span><h3>Share your experience</h3><p>Try a lesson, note where you hesitated, and help us see the material through fresh eyes.</p></div>
+</div>
+
+<h2 id="how-to-begin">How to begin</h2>
+<ol>
+<li>Visit the <a href="https://github.com/freecampus">FreeCampus organization on GitHub</a>.</li>
+<li>Look through the open projects and choose an issue that matches your interests.</li>
+<li>Introduce yourself, ask questions, and make a small first contribution.</li>
+</ol>
+<p>Every contribution is reviewed collaboratively. We care about the quality of the work and the experience of the people creating it.</p>
+<p><a class="inline-action" href="https://github.com/freecampus">Visit FreeCampus on GitHub ↗</a></p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-statement">
+          <a class="brand brand-footer" href="..">
+            <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+            <span class="brand-name">FreeCampus</span>
+          </a>
+          <p>Rigorous learning materials,<br>made open to all.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="../subjects/">All subjects</a>
+          <a href="../subjects/python/">Python</a>
+          <a href="../subjects/mathematics/">Mathematics</a>
+        </div>
+        <div class="footer-column">
+          <h2>Community</h2>
+          <a href="../about/">About us</a>
+          <a href="./">Contribute</a>
+          <a href="https://github.com/freecampus">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© 2026 FreeCampus. Open knowledge for an open world.</p>
+        <p>Built in public by learners and educators.</p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const button = document.querySelector('[data-nav-toggle]');
+        const navigation = document.querySelector('[data-navigation]');
+        if (!button || !navigation) return;
+
+        button.addEventListener('click', () => {
+          const open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          navigation.classList.toggle('is-open', !open);
+          document.body.classList.toggle('menu-open', !open);
+        });
+      })();
+    </script>
+  </body>
+</html>

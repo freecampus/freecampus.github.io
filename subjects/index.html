@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore free community-built courses in Python, mathematics, science, and more.">
+    <meta name="theme-color" content="#f4f2eb">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="All subjects · FreeCampus">
+    <meta property="og:description" content="Explore free community-built courses in Python, mathematics, science, and more.">
+    <title>All subjects · FreeCampus</title>
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.css">
+    
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href=".." aria-label="FreeCampus home">
+          <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+          <span class="brand-name">FreeCampus</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+          <ul>
+            
+              <li>
+                
+                  <a href="..">Home</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="./" class="active">Subjects</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../about/">About</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../contribute/">Contribute</a>
+                
+              </li>
+            
+          </ul>
+          <a class="nav-cta" href="../contribute/">Join the community <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      
+        <header class="page-masthead">
+          <div class="shell page-masthead-inner">
+            <p class="eyebrow">FreeCampus</p>
+            <h1>All subjects</h1>
+            <p class="page-intro">Explore a growing library of free, rigorous learning paths—created by people who believe education should be open to everyone.</p>
+          </div>
+        </header>
+      
+
+      <div class="shell prose-layout">
+        
+          <aside class="page-aside" aria-label="Section navigation">
+            <span>On this page</span>
+            <a href="#main-content">All subjects</a>
+            
+              <a href="#choose-a-field-of-study">Choose a field of study</a>
+            
+              <a href="#how-our-learning-paths-work">How our learning paths work</a>
+            
+          </aside>
+        
+        <article class="prose">
+          <h2 id="choose-a-field-of-study">Choose a field of study</h2>
+<p>Every FreeCampus subject starts from first principles and moves toward meaningful practice. Learn at your own pace, return whenever you need, and share what you discover.</p>
+<div class="catalog-grid">
+  <a class="catalog-card" href="python/">
+    <span class="catalog-kicker">Computing · Open now</span>
+    <h3>Python</h3>
+    <p>Learn to think computationally and create useful programs with one of the world’s most approachable languages.</p>
+    <span class="catalog-meta">6 learning modules <b>→</b></span>
+  </a>
+  <a class="catalog-card" href="mathematics/">
+    <span class="catalog-kicker">Foundations · Open now</span>
+    <h3>Mathematics</h3>
+    <p>Develop number sense, algebraic fluency, and the habit of reasoning carefully from evidence.</p>
+    <span class="catalog-meta">5 learning modules <b>→</b></span>
+  </a>
+  <article class="catalog-card catalog-card-muted" id="science">
+    <span class="catalog-kicker">Inquiry · In development</span>
+    <h3>Natural sciences</h3>
+    <p>Use observation, experimentation, and models to understand the physical and living world.</p>
+    <span class="catalog-meta">Community authors wanted</span>
+  </article>
+  <article class="catalog-card catalog-card-muted">
+    <span class="catalog-kicker">Humanities · In development</span>
+    <h3>History & society</h3>
+    <p>Read sources critically, examine systems, and discover how the past continues to shape our lives.</p>
+    <span class="catalog-meta">Community authors wanted</span>
+  </article>
+</div>
+
+<h2 id="how-our-learning-paths-work">How our learning paths work</h2>
+<p>Courses are modular, practical, and designed for independent study. Each module combines a focused explanation, worked examples, exercises, and references for going deeper. Everything is published openly so it can be read, reused, translated, and improved.</p>
+<p><a class="inline-action" href="../contribute/">Help create a subject →</a></p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-statement">
+          <a class="brand brand-footer" href="..">
+            <span class="brand-mark" aria-hidden="true"><span>F</span></span>
+            <span class="brand-name">FreeCampus</span>
+          </a>
+          <p>Rigorous learning materials,<br>made open to all.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="./">All subjects</a>
+          <a href="python/">Python</a>
+          <a href="mathematics/">Mathematics</a>
+        </div>
+        <div class="footer-column">
+          <h2>Community</h2>
+          <a href="../about/">About us</a>
+          <a href="../contribute/">Contribute</a>
+          <a href="https://github.com/freecampus">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© 2026 FreeCampus. Open knowledge for an open world.</p>
+        <p>Built in public by learners and educators.</p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const button = document.querySelector('[data-nav-toggle]');
+        const navigation = document.querySelector('[data-navigation]');
+        if (!button || !navigation) return;
+
+        button.addEventListener('click', () => {
+          const open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          navigation.classList.toggle('is-open', !open);
+          document.body.classList.toggle('menu-open', !open);
+        });
+      })();
+    </script>
+  </body>
+</html>
