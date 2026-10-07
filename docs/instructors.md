@@ -36,6 +36,7 @@ Meet the educators and practitioners helping shape FreeCampus. Our instructors b
 
 <div class="instructor-grid">
   <section class="instructor-card" aria-labelledby="instructor-ivan">
+    <img class="instructor-portrait" src="../assets/images/instructors/ivan-ogasawara.jpg" width="960" height="1280" alt="Ivan Ogasawara" loading="lazy" decoding="async">
     <p class="instructor-role">Cofounder · Instructor</p>
     <h3 id="instructor-ivan">Ivan Ogasawara</h3>
     <p>Ivan creates and develops the FreeCampus Python course, combining lessons, runnable examples, quizzes, debugging exercises, and projects. His educational experience includes work as a Python instructor and AI teaching assistant at The GRAPH Network, and as a teaching assistant at WorldQuant University. He also collaborated as an author on WorldQuant University's new Applied Data Science Lab course. He structures learning materials to help learners build, explain, test, and improve their own programs.</p>
@@ -43,6 +44,7 @@ Meet the educators and practitioners helping shape FreeCampus. Our instructors b
     <a class="inline-action" href="https://www.linkedin.com/in/ivan-ogasawara/">Ivan on LinkedIn ↗</a>
   </section>
   <section class="instructor-card" aria-labelledby="instructor-ricky">
+    <img class="instructor-portrait" src="../assets/images/instructors/ricky-macharm.jpg" width="1144" height="1536" alt="Ricky Sambo Macharm" loading="lazy" decoding="async">
     <p class="instructor-role">Cofounder · Instructor</p>
     <h3 id="instructor-ricky">Ricky Sambo Macharm</h3>
     <p>Ricky is an instructor in data science, machine learning, and deep learning, and a teaching assistant at WorldQuant University. He also collaborated as an author on WorldQuant University's new Applied Data Science Lab course. Alongside teaching, he works as a consultant and researcher and holds a master's degree in financial engineering. His educational focus brings together data analysis and the methods behind machine learning and neural networks.</p>
