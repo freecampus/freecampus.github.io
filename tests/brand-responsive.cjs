@@ -17,7 +17,7 @@ const { chromium } = require('playwright');
     // Include both sides of the menu breakpoint and the narrowest supported width.
     for (const width of [320, 375, 760, 761, 820, 1024, 1440]) {
       await page.setViewportSize({ width, height: 960 });
-      for (const route of ['/', '/subjects/', '/about/', '/contribute/']) {
+      for (const route of ['/', '/subjects/', '/instructors/', '/about/', '/contribute/']) {
         await page.goto(`http://127.0.0.1:8000${route}`, { waitUntil: 'networkidle' });
         const result = await page.evaluate(() => {
           const header = document.querySelector('.site-header .brand');

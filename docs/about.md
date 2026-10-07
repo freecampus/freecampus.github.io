@@ -21,6 +21,8 @@ We bring together learners, educators, subject experts, editors, designers, and 
 
 ## A campus without gates
 
+Educators and practitioners can help shape our courses through the [Instructor Network](instructors.md), contributing lessons, practical activities, and thoughtful review.
+
 There are no admissions forms here. No prescribed pace. You are welcome whether you are meeting a subject for the first time, returning after years away, or helping someone else understand it more deeply.
 
 [Explore the subjects →](../subjects/){ .inline-action }
