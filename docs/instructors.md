@@ -32,21 +32,21 @@ Begin with a lesson, a review, or a course proposal. Agree on the scope with the
 
 ## Meet the instructors
 
-Meet the educators and practitioners helping shape FreeCampus. Our instructors bring experience in open-source software, research, data science, and technical education.
+Meet the educators and practitioners helping shape FreeCampus. Our instructors bring experience in programming education, course development, and data science training.
 
 <div class="instructor-grid">
   <section class="instructor-card" aria-labelledby="instructor-ivan">
     <p class="instructor-role">Cofounder · Instructor</p>
     <h3 id="instructor-ivan">Ivan Ogasawara</h3>
-    <p>Research software engineer, SciStitch cofounder, and founder and executive director of Open Science Labs. Ivan is the author of Makim and Sugar and creates learning materials for the FreeCampus Python course.</p>
-    <p class="instructor-expertise"><strong>Expertise</strong> Python · Research software engineering · Open-source development</p>
+    <p>Ivan creates and develops the FreeCampus Python course, combining lessons, runnable examples, quizzes, debugging exercises, and projects. His educational experience includes work as a Python instructor and AI teaching assistant at The GRAPH Network. He structures learning materials to help learners build, explain, test, and improve their own programs.</p>
+    <p class="instructor-expertise"><strong>Teaching areas</strong> Python programming · Software development · Scientific computing</p>
     <a class="inline-action" href="https://www.linkedin.com/in/ivan-ogasawara/">Ivan on LinkedIn ↗</a>
   </section>
   <section class="instructor-card" aria-labelledby="instructor-ricky">
     <p class="instructor-role">Cofounder · Instructor</p>
     <h3 id="instructor-ricky">Ricky Sambo Macharm</h3>
-    <p>Data scientist, AI/ML engineer, and SciStitch cofounder. Ricky's experience spans public health, data pipelines, and technical education across Africa and Europe. He contributes to Masakhane's open-source research on African languages and holds a master's degree in financial engineering.</p>
-    <p class="instructor-expertise"><strong>Expertise</strong> Data science · AI &amp; machine learning · Data engineering</p>
+    <p>Ricky is an instructor in data science, machine learning, and deep learning. Alongside teaching, he works as a consultant and researcher and holds a master's degree in financial engineering. His educational focus brings together data analysis and the methods behind machine learning and neural networks.</p>
+    <p class="instructor-expertise"><strong>Teaching areas</strong> Data science · Machine learning · Deep learning</p>
     <a class="inline-action" href="https://www.linkedin.com/in/theafricanquant/">Ricky on LinkedIn ↗</a>
   </section>
 </div>
