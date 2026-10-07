@@ -17,6 +17,8 @@ You do not need to be a professor—or even an expert—to make FreeCampus bette
 
 ## How to begin
 
+Interested in creating or reviewing a course? Explore the [Instructor Network](instructors.md) to learn how educators and practitioners can collaborate with FreeCampus.
+
 1. Visit the [FreeCampus organization on GitHub](https://github.com/freecampus).
 2. Look through the open projects and choose an issue that matches your interests.
 3. Introduce yourself, ask questions, and make a small first contribution.

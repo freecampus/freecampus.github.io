@@ -14,6 +14,7 @@ theme:
 nav:
   - Home: index.md
   - Subjects: subjects/index.md
+  - Instructors: instructors.md
   - About: about.md
   - Contribute: contribute.md
 
