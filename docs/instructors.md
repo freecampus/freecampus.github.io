@@ -32,7 +32,24 @@ Begin with a lesson, a review, or a course proposal. Agree on the scope with the
 
 ## Meet the instructors
 
-Instructor profiles will be published here as affiliations and profile details are confirmed. Each profile will connect an instructor's expertise with the courses or materials they help create, so learners can explore their work.
+Meet the educators and practitioners helping shape FreeCampus. Our instructors bring experience in open-source software, research, data science, and technical education.
+
+<div class="instructor-grid">
+  <section class="instructor-card" aria-labelledby="instructor-ivan">
+    <p class="instructor-role">Cofounder · Instructor</p>
+    <h3 id="instructor-ivan">Ivan Ogasawara</h3>
+    <p>Research software engineer, SciStitch cofounder, and founder and executive director of Open Science Labs. Ivan is the author of Makim and Sugar and creates learning materials for the FreeCampus Python course.</p>
+    <p class="instructor-expertise"><strong>Expertise</strong> Python · Research software engineering · Open-source development</p>
+    <a class="inline-action" href="https://www.linkedin.com/in/ivan-ogasawara/">Ivan on LinkedIn ↗</a>
+  </section>
+  <section class="instructor-card" aria-labelledby="instructor-ricky">
+    <p class="instructor-role">Cofounder · Instructor</p>
+    <h3 id="instructor-ricky">Ricky Sambo Macharm</h3>
+    <p>Data scientist, AI/ML engineer, and SciStitch cofounder. Ricky's experience spans public health, data pipelines, and technical education across Africa and Europe. He contributes to Masakhane's open-source research on African languages and holds a master's degree in financial engineering.</p>
+    <p class="instructor-expertise"><strong>Expertise</strong> Data science · AI &amp; machine learning · Data engineering</p>
+    <a class="inline-action" href="https://www.linkedin.com/in/theafricanquant/">Ricky on LinkedIn ↗</a>
+  </section>
+</div>
 
 Already contributing to a FreeCampus course? Share a short biography, your subject areas, links to your contributions, and any public profile links you would like included when you contact the maintainers.
 
