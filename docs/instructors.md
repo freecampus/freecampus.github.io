@@ -30,9 +30,9 @@ Begin with a lesson, a review, or a course proposal. Agree on the scope with the
 - **Welcome review.** Discuss feedback constructively and check examples and exercises before sharing them.
 - **Choose a sustainable scope.** Talk with maintainers about the time you can give and how the material will be maintained.
 
-## Meet the instructors
+## Meet the instructors and collaborators
 
-Meet the educators and practitioners helping shape FreeCampus. Our instructors bring experience in programming education, course development, and data science training.
+Meet the educators and practitioners helping shape FreeCampus. Our network brings experience in programming education, course development, statistics, and data science training.
 
 <div class="instructor-grid">
   <section class="instructor-card" aria-labelledby="instructor-ivan">
@@ -50,6 +50,14 @@ Meet the educators and practitioners helping shape FreeCampus. Our instructors b
     <p>Ricky is an instructor in data science, machine learning, and deep learning, and a teaching assistant at WorldQuant University. He also collaborated as an author on WorldQuant University's new Applied Data Science Lab course. Alongside teaching, he works as a consultant and researcher and holds a master's degree in financial engineering. His educational focus brings together data analysis and the methods behind machine learning and neural networks.</p>
     <p class="instructor-expertise"><strong>Teaching areas</strong> Data science · Machine learning · Deep learning</p>
     <a class="inline-action" href="https://www.linkedin.com/in/theafricanquant/">Ricky on LinkedIn ↗</a>
+  </section>
+  <section class="instructor-card" aria-labelledby="instructor-anavelyz">
+    <img class="instructor-portrait" src="../assets/images/instructors/anavelyz-perez.webp" width="360" height="480" alt="Anavelyz Perez" loading="lazy" decoding="async">
+    <p class="instructor-role">Collaborator</p>
+    <h3 id="instructor-anavelyz">Anavelyz Perez</h3>
+    <p>Anavelyz holds a degree in statistics and is passionate about data analysis and statistical modeling. Curious and adaptable, she enjoys using analytical approaches to solve complex problems and continually seeks opportunities to learn and contribute. She is especially interested in sharing her knowledge with future generations and anyone eager to learn about her field.</p>
+    <p class="instructor-expertise"><strong>Areas of expertise</strong> Statistics · Data analysis · Statistical modeling</p>
+    <a class="inline-action" href="https://www.linkedin.com/in/anavelyz-perez-5b1161117/">Anavelyz on LinkedIn ↗</a>
   </section>
 </div>
 
