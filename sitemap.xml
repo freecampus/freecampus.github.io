@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://freecampus.org/community-guide/</loc>
+         <lastmod>2026-10-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://freecampus.org/contribute/</loc>
          <lastmod>2026-10-18</lastmod>
          <changefreq>daily</changefreq>
