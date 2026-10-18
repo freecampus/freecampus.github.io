@@ -52,6 +52,10 @@ Not every community course will necessarily have an App version. Any course adap
   <div><span>04</span><h3>Always improving</h3><p>An open course is never finished. It evolves as knowledge and its community grow.</p></div>
 </div>
 
+## Join the community
+
+Our [Community Guide](community-guide.md) explains how authors, translators, reviewers, learners, developers, and community helpers can participate, what to expect, and how licensing and App collaborations work.
+
 ## A campus without gates
 
 Educators and practitioners can help shape our courses through the [Instructor Network](instructors.md), contributing lessons, practical activities, and thoughtful review.

@@ -16,7 +16,9 @@ nav:
   - Subjects: subjects/index.md
   - Instructors: instructors.md
   - About: about.md
-  - Contribute: contribute.md
+  - Contribute:
+      - Get started: contribute.md
+      - Community Guide: community-guide.md
 
 extra_css:
   - assets/stylesheets/main.css

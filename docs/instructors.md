@@ -30,6 +30,8 @@ Begin with a lesson, a review, or a course proposal. Agree on the scope with the
 - **Welcome review.** Discuss feedback constructively and check examples and exercises before sharing them.
 - **Choose a sustainable scope.** Talk with maintainers about the time you can give and how the material will be maintained.
 
+For practical guidance on authorship, translations, review, licensing, recognition, and separately contracted App work, read the [Community Guide](community-guide.md).
+
 ## Meet the instructors
 
 Meet the educators and practitioners helping shape FreeCampus. Our instructors bring experience in programming education, course development, and data science training.

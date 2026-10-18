@@ -15,6 +15,10 @@ You do not need to be a professor—or even an expert—to make FreeCampus bette
   <div><span>Learn</span><h3>Share your experience</h3><p>Try a lesson, note where you hesitated, and help us see the material through fresh eyes.</p></div>
 </div>
 
+## Find your role
+
+Read the [Community Guide](community-guide.md) for detailed guidance for authors, translators, reviewers, learners, developers, and community helpers. It explains the contribution process, recognition, licensing, and the difference between volunteer community work and potential App collaborations.
+
 ## How to begin
 
 Interested in creating or reviewing a course? Explore the [Instructor Network](instructors.md) to learn how educators and practitioners can collaborate with FreeCampus.
