@@ -114,7 +114,7 @@ description: FreeCampus is a global community creating rigorous, open learning m
     <div class="mission-principles">
       <article>
         <span>01</span>
-        <div><h3>Free to access</h3><p>No subscriptions or admissions. Begin whenever you are ready.</p></div>
+        <div><h3>Free to access</h3><p>Community courses need no subscription or admission. Begin whenever you are ready.</p></div>
       </article>
       <article>
         <span>02</span>

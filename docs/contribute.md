@@ -15,6 +15,8 @@ You do not need to be a professor—or even an expert—to make FreeCampus bette
   <div><span>Learn</span><h3>Share your experience</h3><p>Try a lesson, note where you hesitated, and help us see the material through fresh eyes.</p></div>
 </div>
 
+Community activities are unpaid volunteer work to make high-quality learning materials freely accessible. Any paid contract offered by the separate App team is an App engagement, distinct from community participation.
+
 ## Find your role
 
 Read the [Community Guide](community-guide.md) for detailed guidance for authors, translators, reviewers, learners, developers, and community helpers. It explains the contribution process, recognition, licensing, and the difference between volunteer community work and potential App collaborations.

@@ -8,7 +8,7 @@ description: Explore the FreeCampus Instructor Network and collaborate on open l
 
 The FreeCampus Instructor Network brings together educators and practitioners who want to help create rigorous, freely accessible learning materials. Whether you teach in a classroom, mentor a team, or explain ideas through open projects, your experience can help more people learn.
 
-Affiliated instructors collaborate with the community on lessons, exercises, and course review. Start with a subject you know well and a contribution you can sustain.
+Affiliated instructors volunteer with the community on lessons, exercises, and course review. All community activities are unpaid. The separate App team may offer paid contracts for specific tasks; community authorship does not guarantee a contract or inclusion in the App. Start with a subject you know well and a contribution you can sustain.
 
 [Start a conversation →](#get-involved){ .inline-action }
 

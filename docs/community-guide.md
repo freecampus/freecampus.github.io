@@ -16,13 +16,13 @@ Contributors work together to improve these public resources for their own educa
 
 The App is a separate commercial project in development. It is designed to help learners go beyond course materials through a richer learning experience, with guided practice, feedback, progress tracking, and projects. Its model includes a free tier and paid tiers; these describe the planned offering, not features already available.
 
-The App team manages its development, organization, and income. App revenue supports the App's operation and development and is not a shared community revenue fund. The team may also fund course creation, updates, or translations through separate paid contracts.
+The App team manages its development, organization, and income. App revenue supports the App's operation and development and is not a shared community revenue fund. The App team may also commission specific tasks through its own paid contracts, including course creation, updates, and translations.
 
 Both projects support learning, but their responsibilities, resources, and ways of working differ. The community focuses on access to open materials; the App focuses on the learning services built around selected materials. [Read more about both projects](about.md).
 
 ## Community participation and the App
 
-A community contribution supports freely accessible education. It does not come with compensation, royalties, a share of App revenue, or a promise that the material will be included in the App. Paid work is agreed separately before it begins.
+All activities within FreeCampus Community Courses are unpaid volunteer work in support of freely accessible education. Community participation does not provide compensation, royalties, a share of App revenue, or a promise that materials will be included in the App.
 
 Community contributors help shape the open courses through proposals, discussion, and review. Participation does not grant authority over the App's roadmap, development, or organization; those decisions belong to the App team.
 
@@ -92,10 +92,12 @@ Publication depends on quality, suitability, licensing, and maintenance capacity
 
 The [website](https://github.com/freecampus/freecampus.github.io/blob/main/LICENSE), [Python](https://github.com/freecampus/python/blob/main/LICENSE), and [Mathematics](https://github.com/freecampus/math/blob/main/LICENSE) repositories currently publish BSD 3-Clause license files. Follow their actual terms, including required notices and restrictions on implied endorsement, and check for separately licensed assets. This guide does not change those licenses or set the terms for all App materials and software.
 
-## Paid collaborations
+## Separate contracts with the App team
 
-When the App team funds new courses, updates, translations, teaching, or mentoring, it may invite authors, translators, and other community members to discuss paid work. These opportunities depend on the App's needs and budget; community participation is not an application for a paid position or a requirement to accept one.
+The App team may independently contract authors, translators, managers, and other supporters from the community for specific tasks. These may include creating or updating courses, translating materials, coordinating work, teaching, or mentoring, depending on the App's needs and budget.
 
-Each collaboration needs a separate agreement covering scope, compensation, schedule, rights, attribution, and maintenance. Teaching and mentoring also need agreed hours, time zones, and support expectations. You can discuss an opportunity without committing to unpaid preparation or accepting a contract.
+These are paid contracts with the App project, separate from community volunteering. They do not turn community activities into paid work or create a right to payment for previous volunteer contributions. Community members are free to accept or decline an invitation; participation does not guarantee a contract.
+
+Each App contract needs an agreement covering scope, compensation, schedule, rights, attribution, and maintenance. Teaching and mentoring also need agreed hours, time zones, and support expectations. You can discuss an opportunity without committing to unpaid preparation or accepting a contract.
 
 [Introduce your idea ↗](https://github.com/freecampus/freecampus.github.io/issues/new?title=Community%20collaboration){ .inline-action }

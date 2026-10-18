@@ -8,7 +8,7 @@ description: Discover FreeCampus Community Courses, our open learning materials,
 
 FreeCampus began with a simple conviction: access to excellent learning materials should not depend on where you live, what you earn, or whether you belong to an institution.
 
-We bring together learners, educators, subject experts, editors, designers, and developers to create thoughtful materials across disciplines. Our work takes shape through two connected projects: **FreeCampus Community Courses** and **FreeCampus App**.
+We bring together learners, educators, subject experts, editors, designers, and developers to create thoughtful materials across disciplines. Our work takes shape through two separate projects with complementary purposes: **FreeCampus Community Courses** and **FreeCampus App**.
 
 ## FreeCampus Community Courses
 
@@ -18,13 +18,13 @@ The courses are published as public static web pages: lightweight course website
 
 These courses are learning resources in their own right. You can follow their lessons without joining the App or paying for a subscription. Downloadable editions, where available, provide another way to study away from the website.
 
-The community improves the materials through corrections, new examples, review, and translations. Reuse and adaptation follow each course's license, with credit to the original contributors.
+All community activities are unpaid volunteer work. Contributors improve the materials through corrections, new examples, review, and translations. Reuse and adaptation follow each course's license, with credit to the original contributors.
 
 [Explore the community courses →](subjects/index.md){ .inline-action }
 
 ## FreeCampus App
 
-FreeCampus App is a learning platform in development that builds courses on top of selected community courses. It uses those open materials as a foundation and adds a richer learning experience around them.
+FreeCampus App is a separate commercial learning platform in development that builds courses on top of selected community courses. It uses those open materials as a foundation and adds a richer learning experience around them.
 
 Its purpose is to help learners make better use of their study time, understand what they have learned, and decide what to work on next. The experience is being designed to connect explanations with purposeful practice, feedback, and opportunities to apply knowledge beyond the lesson.
 
@@ -39,9 +39,9 @@ We are designing primarily for smartphone users, with accessibility and efficien
 - **For independent study:** Community Courses provides public lessons, exercises, and lightweight learning tools directly on the web.
 - **For more guided learning:** The App is being developed to bring selected materials together with structured practice, feedback, and progress tracking.
 - **For open access:** Community materials remain freely available on their public course websites, independently of App accounts, subscriptions, or participation.
-- **For sustainability:** The App may offer paid platform services and support. Those services would fund the learning experience and infrastructure while the community materials remain open.
+- **For sustainability:** The App model includes a free tier and paid tiers. The App team manages its income for App operations and development; community participation does not provide a share of that revenue.
 
-Not every community course will necessarily have an App version. Any course adapted for the App must have a license that permits the intended use, and its contributors and original sources must be credited. You can use the community courses whether or not you choose to use the App.
+The App team may separately contract authors, translators, managers, and other supporters for specific paid tasks. These contracts belong to the App project and are distinct from unpaid community activities. Community participation does not grant decision-making authority in the App or guarantee that a course will have an App version. Any course adapted for the App must have a license that permits the intended use, and its contributors and original sources must be credited. You can use the community courses whether or not you choose to use the App.
 
 ## Our principles
 
