@@ -14,6 +14,8 @@ We bring together learners, educators, subject experts, editors, designers, and 
 
 FreeCampus Community Courses is our community effort to create and maintain open courses. Contributors develop explanations, examples, practical activities, and exercises that help people study independently, at their own pace.
 
+Our ambition is to expand learning opportunities for millions of people worldwide, including across Latin America and Africa. By making high-quality materials developed and reviewed by experts freely accessible, we aim to help learners build skills, pursue new opportunities, and use what they learn to make a difference in their communities and the wider world.
+
 The courses are published as public static web pages: lightweight course websites you can read directly in your browser. They include a few quizzes and learning tools to help you check your understanding and put ideas into practice. The tools available vary by course; suitable programming lessons may also offer notebooks you can run in Google Colab.
 
 These courses are learning resources in their own right. You can follow their lessons without joining the App or paying for a subscription. Downloadable editions, where available, provide another way to study away from the website.
