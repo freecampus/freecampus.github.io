@@ -10,6 +10,8 @@ description: Community roles, contribution steps, licensing, and collaboration o
 
 We believe everyone should have access to high-quality learning materials. The community creates open courses to support learners in their learning journey, freely available as static web pages with explanations, practice, quizzes, and learning tools.
 
+Our ambition is to expand learning opportunities for millions of people worldwide, including across Latin America and Africa. By making high-quality materials developed and reviewed by experts freely accessible, we aim to help learners build skills, pursue new opportunities, and use what they learn to make a difference in their communities and the wider world.
+
 Contributors work together to improve these public resources for their own educational value. The courses remain available independently of the App, without an App account, subscription, or commitment to use it.
 
 ### FreeCampus App
