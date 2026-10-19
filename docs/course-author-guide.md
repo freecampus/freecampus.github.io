@@ -16,15 +16,15 @@ Give the journey a clear purpose and list its courses, their prerequisites, and 
 
 ### Course
 
-A **course** develops a defined set of skills through units and lessons. It can organize its units into **milestones** when larger stages help learners understand the path. Milestones are optional; a course can also contain units directly.
+A **course** develops a defined set of skills and must be organized into one or more **milestones**. Each milestone contains units, and each unit contains lessons.
 
 ### Milestone
 
-A **milestone** contains units and a **milestone challenge**. Use the challenge to bring together what learners practiced across that milestone's units. Explain the outcome learners are working toward and how the units prepare them for it.
+A **milestone** contains one or more units and must include a **milestone challenge**. Use the challenge to bring together what learners practiced across that milestone's units. Explain the outcome learners are working toward and how the units prepare them for it.
 
 ### Unit
 
-A **unit** groups related lessons around a focused topic or outcome. It can also include a **unit challenge** to combine what learners practiced in those lessons. Unit challenges are optional.
+A **unit** groups related lessons around a focused topic or outcome. Every unit must include a **unit challenge** to combine what learners practiced in those lessons.
 
 ### Lesson
 
@@ -36,25 +36,28 @@ Choose activities that fit the subject and explain what learners should notice, 
 
 This is an illustrative structure, not a required repository folder layout:
 
-**Journey: Python** groups two courses: **Python Foundations** and **Python Automation**. The Foundations course could include this milestone:
+**Journey: Python** groups two courses: **Python Foundations** and **Python Automation**. The Foundations course includes this milestone:
 
 - **Milestone: Work with everyday data**
     - **Unit: Values and variables**
         - Lesson: Explore values, with a prediction puzzle.
         - Lesson: Use variables, with a Google Colab exercise.
-        - Optional unit challenge: Create a simple expense summary.
+        - Unit challenge: Create a simple expense summary.
     - **Unit: Collections**
         - Lesson: Work with lists, with short understanding checks.
         - Lesson: Use dictionaries, with guided practice.
+        - Unit challenge: Organize a small inventory using lists and dictionaries.
     - **Milestone challenge:** Combine variables and collections to summarize a small dataset.
 
-The Automation course has its own units and lessons, with milestones where useful.
+The Automation course follows the same required structure: milestones with milestone challenges, and units with lessons and unit challenges.
 
 Follow the repository's existing file conventions. Discuss structural changes with maintainers before reorganizing published content or changing lesson URLs.
 
 ## Design practice without grades
 
 **Community courses are not graded.** Lesson activities, unit challenges, and milestone challenges help learners practice and check their own understanding; they are not graded examinations.
+
+Milestone and unit challenges are required parts of the course structure and remain ungraded.
 
 For each activity or challenge:
 
@@ -80,7 +83,8 @@ These progress and grading rules describe Community Courses. The separate App ha
 ## Before submitting
 
 - Explain the audience, prerequisites, learning outcomes, and suggested learning order.
-- Use journey, course, milestone, unit, and lesson consistently. Include a milestone challenge wherever you introduce a milestone.
+- Use journey, course, milestone, unit, and lesson consistently. Organize every course into milestones and include a milestone challenge in each milestone.
+- Include lessons and a unit challenge in every unit.
 - Check that activities have useful feedback and that code, notebook links, and supporting files work.
 - State the ungraded nature of the course and the limits of browser-local progress.
 - Preserve required licenses and contributor credit, and follow the repository's review and build instructions.
