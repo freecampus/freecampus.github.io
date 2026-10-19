@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How to structure FreeCampus Community Courses into journeys, courses, milestones, units, and lessons, with ungraded practice and browser-local progress.">
+    <meta name="theme-color" content="#f4f2eb">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Course Author Guide · FreeCampus">
+    <meta property="og:description" content="How to structure FreeCampus Community Courses into journeys, courses, milestones, units, and lessons, with ungraded practice and browser-local progress.">
+    <title>Course Author Guide · FreeCampus</title>
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.css">
+    
+  </head>
+  <body class="inner-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href=".." aria-label="FreeCampus home">
+          <svg class="brand-logo" viewBox="0 0 1297 183" width="220" height="31" aria-hidden="true" focusable="false">
+            <use href="../assets/images/brand.svg#logo"></use>
+          </svg>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-navigation>
+          <ul>
+            
+              <li>
+                
+                  <a href="..">Home</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../subjects/">Subjects</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../instructors/">Instructors</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../about/">About</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a href="../contribute/" class="active">Contribute</a>
+                
+              </li>
+            
+          </ul>
+          <a class="nav-cta" href="../contribute/">Join the community <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      
+        <header class="page-masthead">
+          <div class="shell page-masthead-inner">
+            <p class="eyebrow">FreeCampus</p>
+            <h1>Course Author Guide</h1>
+            <p class="page-intro">Organize community courses into clear learning paths, with useful practice and honest progress expectations.</p>
+          </div>
+        </header>
+      
+
+      <div class="shell prose-layout">
+        
+          <aside class="page-aside" aria-label="Section navigation">
+            <span>On this page</span>
+            <a href="#main-content">Course Author Guide</a>
+            
+              <a href="#choose-the-learning-structure">Choose the learning structure</a>
+            
+              <a href="#example-outline">Example outline</a>
+            
+              <a href="#design-practice-without-grades">Design practice without grades</a>
+            
+              <a href="#explain-browser-local-progress">Explain browser-local progress</a>
+            
+              <a href="#before-submitting">Before submitting</a>
+            
+          </aside>
+        
+        <article class="prose">
+          <p>This guide is for authors of <strong>FreeCampus Community Courses</strong>, the freely accessible public learning materials. Community authoring is unpaid volunteer work. Read the <a href="../community-guide/">Community Guide</a> for contribution steps, licensing, credit, and the separate relationship with the App.</p>
+<h2 id="choose-the-learning-structure">Choose the learning structure</h2>
+<h3 id="journey">Journey</h3>
+<p>A <strong>journey is a group of courses</strong>. When a community repository contains more than one course, call that collection a journey. A repository containing a single course can present it as a standalone course.</p>
+<p>Give the journey a clear purpose and list its courses, their prerequisites, and a suggested order. Each course should still explain its own audience and learning outcomes.</p>
+<h3 id="course">Course</h3>
+<p>A <strong>course</strong> develops a defined set of skills and must be organized into one or more <strong>milestones</strong>. Each milestone contains units, and each unit contains lessons.</p>
+<h3 id="milestone">Milestone</h3>
+<p>A <strong>milestone</strong> contains one or more units and must include a <strong>milestone challenge</strong>. Use the challenge to bring together what learners practiced across that milestone's units. Explain the outcome learners are working toward and how the units prepare them for it.</p>
+<h3 id="unit">Unit</h3>
+<p>A <strong>unit</strong> groups related lessons around a focused topic or outcome. Every unit must include a <strong>unit challenge</strong> to combine what learners practiced in those lessons.</p>
+<h3 id="lesson">Lesson</h3>
+<p>A <strong>lesson</strong> introduces and practices a manageable part of a topic. Lessons usually do not have a dedicated challenge. Instead, check understanding through short quizzes, puzzles, worked examples, reflection questions, interactive exercises, or Google Colab notebooks where appropriate.</p>
+<p>Choose activities that fit the subject and explain what learners should notice, try, or understand. Not every lesson needs every activity type.</p>
+<h2 id="example-outline">Example outline</h2>
+<p>This is an illustrative structure, not a required repository folder layout:</p>
+<p><strong>Journey: Python</strong> groups two courses: <strong>Python Foundations</strong> and <strong>Python Automation</strong>. The Foundations course includes this milestone:</p>
+<ul>
+<li><strong>Milestone: Work with everyday data</strong><ul>
+<li><strong>Unit: Values and variables</strong><ul>
+<li>Lesson: Explore values, with a prediction puzzle.</li>
+<li>Lesson: Use variables, with a Google Colab exercise.</li>
+<li>Unit challenge: Create a simple expense summary.</li>
+</ul>
+</li>
+<li><strong>Unit: Collections</strong><ul>
+<li>Lesson: Work with lists, with short understanding checks.</li>
+<li>Lesson: Use dictionaries, with guided practice.</li>
+<li>Unit challenge: Organize a small inventory using lists and dictionaries.</li>
+</ul>
+</li>
+<li><strong>Milestone challenge:</strong> Combine variables and collections to summarize a small dataset.</li>
+</ul>
+</li>
+</ul>
+<p>The Automation course follows the same required structure: milestones with milestone challenges, and units with lessons and unit challenges.</p>
+<p>Follow the repository's existing file conventions. Discuss structural changes with maintainers before reorganizing published content or changing lesson URLs.</p>
+<h2 id="design-practice-without-grades">Design practice without grades</h2>
+<p><strong>Community courses are not graded.</strong> Lesson activities, unit challenges, and milestone challenges help learners practice and check their own understanding; they are not graded examinations.</p>
+<p>Milestone and unit challenges are required parts of the course structure and remain ungraded.</p>
+<p>For each activity or challenge:</p>
+<ul>
+<li>State the goal and provide clear instructions, prerequisites, and any starter files or data.</li>
+<li>Include useful feedback, hints, expected behavior, explanations, or a suggested solution so learners can review their work.</li>
+<li>Use quizzes or automated checks for learning feedback, without turning their results into a course grade or a pass requirement.</li>
+<li>Make activities readable on a phone and identify work that needs a computer or an external tool such as Google Colab.</li>
+</ul>
+<p>Progress indicators show where a learner has reached. They are not grades or verified evidence of mastery. Do not promise instructor grading or individual review as part of a community course.</p>
+<h2 id="explain-browser-local-progress">Explain browser-local progress</h2>
+<p>Community course progress is stored locally in the learner's web browser. It is limited to the <strong>same browser and browser profile on the same device</strong>; it does not automatically synchronize to another device or browser.</p>
+<p>Clearing the site's browser data can remove saved progress. Private browsing may discard it when the session ends. Do not describe this tracking as a cloud backup or imply that signing into the separate App restores community-course progress.</p>
+<p>Include a short explanation near the course introduction or progress controls, for example:</p>
+<blockquote>
+<p>This course is ungraded. Your progress is saved in this browser on this device. It does not sync across devices and may be lost if you clear the site's browser data.</p>
+</blockquote>
+<p>These progress and grading rules describe Community Courses. The separate App has its own product design and implementation.</p>
+<h2 id="before-submitting">Before submitting</h2>
+<ul>
+<li>Explain the audience, prerequisites, learning outcomes, and suggested learning order.</li>
+<li>Use journey, course, milestone, unit, and lesson consistently. Organize every course into milestones and include a milestone challenge in each milestone.</li>
+<li>Include lessons and a unit challenge in every unit.</li>
+<li>Check that activities have useful feedback and that code, notebook links, and supporting files work.</li>
+<li>State the ungraded nature of the course and the limits of browser-local progress.</li>
+<li>Preserve required licenses and contributor credit, and follow the repository's review and build instructions.</li>
+</ul>
+<p><a class="inline-action" href="https://github.com/freecampus/freecampus.github.io/issues/new?title=Community%20course%20proposal">Discuss a course idea ↗</a></p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div class="footer-statement">
+          <a class="brand brand-footer" href=".." aria-label="FreeCampus home">
+            <svg class="brand-logo" viewBox="0 0 1297 183" width="220" height="31" aria-hidden="true" focusable="false">
+              <use href="../assets/images/brand.svg#logo"></use>
+            </svg>
+          </a>
+          <p>Rigorous learning materials,<br>made open to all.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="../subjects/">All subjects</a>
+          <a href="https://freecampus.org/python/" target="_blank" rel="noopener noreferrer">Python <span aria-hidden="true">↗</span></a>
+          <a href="https://freecampus.org/math/" target="_blank" rel="noopener noreferrer">Mathematics <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="footer-column">
+          <h2>Community</h2>
+          <a href="../about/">About us</a>
+          <a href="../instructors/">Instructor Network</a>
+          <a href="../contribute/">Contribute</a>
+          <a href="../community-guide/">Community Guide</a>
+          <a href="https://github.com/freecampus">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© 2026 FreeCampus. Open knowledge for an open world.</p>
+        <p>Built in public by learners and educators.</p>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const button = document.querySelector('[data-nav-toggle]');
+        const navigation = document.querySelector('[data-navigation]');
+        if (!button || !navigation) return;
+
+        button.addEventListener('click', () => {
+          const open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          navigation.classList.toggle('is-open', !open);
+          document.body.classList.toggle('menu-open', !open);
+        });
+      })();
+    </script>
+  </body>
+</html>
