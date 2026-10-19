@@ -25,6 +25,8 @@ Read the [Community Guide](community-guide.md) for detailed guidance for authors
 
 Interested in creating or reviewing a course? Explore the [Instructor Network](instructors.md) to learn how educators and practitioners can collaborate with FreeCampus.
 
+Before outlining a community course, read the [Course Author Guide](course-author-guide.md) for the learning structure, ungraded activities, and browser-local progress expectations.
+
 1. Visit the [FreeCampus organization on GitHub](https://github.com/freecampus).
 2. Look through the open projects and choose an issue that matches your interests.
 3. Introduce yourself, ask questions, and make a small first contribution.

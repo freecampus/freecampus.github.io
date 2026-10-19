@@ -19,6 +19,7 @@ nav:
   - Contribute:
       - Get started: contribute.md
       - Community Guide: community-guide.md
+      - Course Author Guide: course-author-guide.md
 
 extra_css:
   - assets/stylesheets/main.css

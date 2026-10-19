@@ -38,6 +38,8 @@ You can combine roles. Start small and discuss larger contributions with the mai
 
 Create lessons, examples, exercises, quizzes, or projects. For a new course, propose its audience, prerequisites, learning outcomes, and outline first. Follow the existing course format, include useful feedback, and check examples. Consider phone users and identify activities requiring a computer.
 
+Use the [Course Author Guide](course-author-guide.md) to organize journeys, courses, milestones, units, and lessons. It also explains ungraded practice and progress stored only in the learner's browser on the same device.
+
 Authors and maintainers discuss scope, attribution, and maintenance as part of editorial and technical review. Explore the [Instructor Network](instructors.md).
 
 ### Translators
