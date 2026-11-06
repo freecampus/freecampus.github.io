@@ -64,16 +64,12 @@ List materials, conditions, and relevant safety requirements. Explain what learn
 - **Use assertions where they give useful feedback.** Check behavior and accept different implementations that meet the same requirements. Cover a representative case and a relevant edge case when applicable. Give failure messages that tell learners what to inspect. For exploratory or visual work, an expected observation may be a better check. These checks support self-review in community lessons.
 - **Verify the learner’s execution path.** For Colab lessons, use executable cells in the Quarto source and follow the [course publishing workflow](course-author-guide.md#write-course-content-in-quarto). Open the generated notebook using the lesson’s Colab link. In a fresh runtime, run setup and examples in order and try the practice and feedback as a learner would. Make dependencies and data loading explicit. Verify local workflows in the environment the lesson specifies.
 
-#### Example of a programming lesson sequence
+#### Example programming lesson
 
-The goal is to filter a table by a numeric condition and explain which rows qualify.
-
-1. **Explain and demonstrate.** Use a small rainfall table to select days with at least 10 mm of rain. Show the condition and filtered output next to the code.
-2. **Check the boundary.** The result should include the day with exactly 10 mm. Explain that `>=` includes the boundary. If that row is missing, check the comparison operator.
-3. **Quiz.** Ask which rows would change with `>`. The feedback explains why the day with exactly 10 mm would be excluded.
-4. **Practice.** Use a small transit table with trips of 14, 15, and 16 minutes. Ask learners to keep trips of at most 15 minutes and explain which trip IDs the assertions should expect.
-
-A later Unit Challenge can ask learners to load, clean, and filter a new table, with links to the lessons on each skill.
+See how a lesson can teach one skill with runnable examples, checkpoints, and
+short quizzes, then ask learners to apply it to a new record. The example
+includes practice assertions and a worked answer.
+[Read a Record from CSV, JSON, and YAML (.qmd source)](examples/read-records-from-csv-json-and-yaml.qmd)
 
 ## Name activities consistently
 
