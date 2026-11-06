@@ -27,6 +27,8 @@ Interested in creating or reviewing a course? Explore the [Instructor Network](i
 
 Before outlining a community course, read the [Course Author Guide](course-author-guide.md) for the learning structure, ungraded activities, and browser-local progress expectations.
 
+When writing or reviewing an individual lesson, use the [Lesson Editorial Guidelines](lesson-editorial-guidelines.md) for examples by lesson type and a review checklist.
+
 1. Visit the [FreeCampus organization on GitHub](https://github.com/freecampus).
 2. Look through the open projects and choose an issue that matches your interests.
 3. Introduce yourself, ask questions, and make a small first contribution.

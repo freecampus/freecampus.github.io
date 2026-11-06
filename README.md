@@ -45,7 +45,7 @@ for reuse. Keep their `viewBox` proportions intact; resize with width and automa
 height. The full logo is 220 CSS pixels wide on desktop and 190 on mobile; the hero
 symbol scales to half the seal's width. Logo links retain an accessible text name.
 
-CI checks all seven pages at seven widths from 320 to 1440 pixels, including both
+CI checks the site pages at seven widths from 320 to 1440 pixels, including both
 sides of the mobile navigation breakpoint. It checks SVG loading, proportions,
 header spacing, overflow, colors, accessible link names, and mobile menu behavior.
 The `responsive-brand-previews` artifact contains desktop, tablet, and phone

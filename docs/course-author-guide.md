@@ -6,6 +6,8 @@ description: How to structure FreeCampus Community Courses into journeys, course
 
 This guide is for authors of **FreeCampus Community Courses**, the freely accessible public learning materials. Community authoring is unpaid volunteer work. Read the [Community Guide](community-guide.md) for contribution steps, licensing, credit, and the separate relationship with the App.
 
+Use the [Lesson Editorial Guidelines](lesson-editorial-guidelines.md) to write individual lessons and review them before submission.
+
 ## Choose the learning structure
 
 ### Journey
