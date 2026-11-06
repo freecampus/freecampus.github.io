@@ -12,9 +12,13 @@ Use the [Lesson Editorial Guidelines](lesson-editorial-guidelines.md) to write i
 
 ### Journey
 
-A **journey** groups two or more related courses in the same community repository. A repository with one course can present it as a standalone course.
+A **FreeCampus Learning Journey**, or **Journey** for short, groups two or more related courses in the same community repository. A repository with one course can present it as a standalone course.
 
-When a large course would be easier to follow in smaller parts, split it into focused courses and keep them together as a journey. Give each course its own audience and learning outcomes. On the journey page, show where to start, what each course requires, and what learners can take next. See the [FreeCampus Python repository](https://github.com/freecampus/python) for a working example.
+A **learning path** is a suggested route through a Journey. For example, the Python Journey starts with Python Foundations and offers paths into software development and scientific computing. See the [FreeCampus Python repository](https://github.com/freecampus/python).
+
+When a large course would be easier to follow in smaller parts, split it into focused courses and keep them together as a Journey. Give each course its own audience and learning outcomes. On the Journey page, show where to start, what each course requires, and what learners can take next.
+
+Reserve **program** for offerings with formal enrollment or completion requirements.
 
 ### Course
 
