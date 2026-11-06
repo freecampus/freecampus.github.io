@@ -1,14 +1,20 @@
 # FreeCampus
 
-The public website for [FreeCampus](https://freecampus.org), a community creating free, rigorous learning materials across programming, mathematics, science, and more.
+This repository contains the MkDocs site for [FreeCampus](https://freecampus.org/), a community that creates free learning materials across programming, mathematics, science, and other subjects.
 
-The site is built with MkDocs and a lightweight custom theme. All content lives in `docs/`, while the shared layout and visual system live in `theme/` and `docs/assets/`.
+## Explore and contribute
 
-For community course structure and learning activities, see the [Course Author Guide](docs/course-author-guide.md).
+- [Subjects](https://freecampus.org/subjects/) — find courses and learning materials.
+- [Contribute](https://freecampus.org/contribute/) — find ways to help and get started.
+- [Community Guide](https://freecampus.org/community-guide/) — learn how contributions, licensing, and review work.
+- [Course Author Guide](https://freecampus.org/course-author-guide/) — organize and publish community courses.
+- [Lesson Editorial Guidelines](https://freecampus.org/lesson-editorial-guidelines/) — write and review individual lessons.
 
-## Run locally
+## Work on the site locally
 
-Create the project environment, then start the Makim preview task:
+Site content is in `docs/` and the MkDocs theme is in `theme/`.
+
+From the repository root, create the Conda environment and start the preview.
 
 ```bash
 conda env create -f conda.yaml
@@ -16,39 +22,8 @@ conda activate freecampus
 makim pages.preview
 ```
 
-Open <http://127.0.0.1:8000>. For a production build, run:
+Open <http://127.0.0.1:8000>. To generate the static site in `build/`, run the build task.
 
 ```bash
 makim pages.build
 ```
-
-## Logo assets
-
-The lowercase wordmark and open-folio symbol are outlined SVGs, with no external
-font or image service required. The header uses the forest-green full logo; the
-dark footer uses the same logo in ivory. The hero and favicon use the symbol
-alone, where the full wordmark would be too small.
-
-`branding/symbol.svg` and `branding/wordmark.svg` are the vector masters. The
-symbol's middle opening is shorter than the upper opening, and both follow the
-page's angle. Every placement uses the same geometry, with uniform scaling.
-After editing a master, regenerate the web assets with Python's standard library:
-
-```bash
-python scripts/generate_brand_assets.py
-mkdocs build --strict
-```
-
-The theme references `docs/assets/images/brand.svg` as a shared SVG sprite.
-Standalone `logo.svg`, `logo-reversed.svg`, and `logo-symbol.svg` are also generated
-for reuse. Keep their `viewBox` proportions intact; resize with width and automatic
-height. The full logo is 220 CSS pixels wide on desktop and 190 on mobile; the hero
-symbol scales to half the seal's width. Logo links retain an accessible text name.
-
-CI checks the site pages at seven widths from 320 to 1440 pixels, including both
-sides of the mobile navigation breakpoint. It checks SVG loading, proportions,
-header spacing, overflow, colors, accessible link names, and mobile menu behavior.
-The `responsive-brand-previews` artifact contains desktop, tablet, and phone
-screenshots. To run the browser check locally, install `playwright@1.62.1`, run
-`npx playwright install chromium`, serve `build/` on port 8000, and run
-`node tests/brand-responsive.cjs`.
