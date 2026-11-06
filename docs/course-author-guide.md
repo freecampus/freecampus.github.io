@@ -12,9 +12,9 @@ Use the [Lesson Editorial Guidelines](lesson-editorial-guidelines.md) to write i
 
 ### Journey
 
-A **journey is a group of courses**. When a community repository contains more than one course, call that collection a journey. A repository containing a single course can present it as a standalone course.
+A **journey** groups two or more related courses in the same community repository. A repository with one course can present it as a standalone course.
 
-Give the journey a clear purpose and list its courses, their prerequisites, and a suggested order. Each course should still explain its own audience and learning outcomes.
+When a large course would be easier to follow in smaller parts, split it into focused courses and keep them together as a journey. Give each course its own audience and learning outcomes. On the journey page, show where to start, what each course requires, and what learners can take next. See the [FreeCampus Python repository](https://github.com/freecampus/python) for a working example.
 
 ### Course
 
@@ -34,11 +34,17 @@ A **lesson** introduces and practices a manageable part of a topic. Lessons usua
 
 Choose activities that fit the subject and explain what learners should notice, try, or understand. Not every lesson needs every activity type.
 
+## Write course content in Quarto
+
+Write all course content in Quarto (`.qmd`). For lessons configured for Colab, the publishing pipeline generates a Jupyter notebook (`.ipynb`) from the lesson source and renders an **Open this lesson in Google Colab** link on the lesson page.
+
+Follow the course repository’s conventions for notebook metadata and the shared Colab link. Make edits in the `.qmd` source so the published page and notebook reflect the same lesson. The [first Python Foundations lesson](https://github.com/freecampus/python/blob/main/docs/courses/python-foundations/milestones/first-programs/units/get-started/meet-python-first-program.qmd) shows the notebook metadata and link include in context.
+
 ## Example outline
 
 This is an illustrative structure, not a required repository folder layout:
 
-**Journey: Python** groups two courses: **Python Foundations** and **Python Automation**. The Foundations course includes this milestone:
+**Journey: Practical Programming** groups two courses: **Programming Foundations** and **Data Automation**. The Foundations course includes this milestone:
 
 - **Milestone: Work with everyday data**
     - **Unit: Values and variables**
