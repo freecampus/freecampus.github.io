@@ -115,13 +115,31 @@ csv_record["seats"] = int(csv_record["seats"])
 for record in (csv_record, json_record, yaml_record):
     require_seat_count(record["seats"])
 
-assert csv_record == json_record == yaml_record, "Check the fields in each record."
 print(csv_record)
 ```
 
-**Checkpoint.** All three records should now match, with `12` as an integer.
-If the check fails, print each record separately and inspect the room name
-and seat count. If the count is text, trace it back to its source.
+**Checkpoint with assertions.** All three records should now contain the room
+name `"Studio, East"` and the integer `12`. The CSV count was converted to
+match the type returned by the JSON and YAML readers. Run this cell to check
+both fields in each record. A passing cell produces no output.
+
+```{python}
+for source, record in [
+    ("CSV", csv_record),
+    ("JSON", json_record),
+    ("YAML", yaml_record),
+]:
+    room = record.get("room")
+    seats = record.get("seats")
+    assert room == "Studio, East", (
+        f"{source}: expected room 'Studio, East', got {room!r}. "
+        "Check the room name in the input and the parsed record."
+    )
+    assert type(seats) is int and seats == 12, (
+        f"{source}: expected the integer 12 for seats, got {seats!r}. "
+        "Check how the seat count was read or converted."
+    )
+```
 
 ## Practice with a new room
 

@@ -57,18 +57,18 @@ List materials, conditions, and relevant safety requirements. Explain what learn
 
 - **Teach a skill at a time.** Introduce the concept, its purpose, and a use case. Explain the library, function, method, class, or parameter when it becomes useful. Show relevant inputs, outputs, or side effects and why the example uses that tool. Link to documentation for details beyond the lesson.
 - **Pair short explanations with runnable code.** Show the expected output or behavior. Give learners something to predict, run, trace, modify, or debug before moving to another substantial concept. State any setup the example depends on.
-- **Use checkpoints to help learners recover.** After a meaningful intermediate step, explain what learners should see, why it looks that way, and what to inspect if their result differs. A checkpoint might show a table’s expected shape or a variable’s value before the next step.
+- **Use checkpoints to help learners recover.** After a meaningful intermediate step, explain what learners should see, why it looks that way, and what to inspect if their result differs. A short text checkpoint can show the expected output or state. When code can check the result reliably, prefer a runnable block with assertions. Give each assertion a message that identifies what failed and what to inspect. Include the expected and actual values when they help learners diagnose the problem.
 - **Add short quizzes at meaningful transitions.** This is strongly recommended. Ask learners to predict an output, choose an explanation, or identify a likely bug. Explain the reasoning in the feedback, especially when a plausible wrong answer reveals a common misunderstanding.
 - **Make practice a small step beyond the example.** Keep the target concept and change the dataset, condition, or input. Give a starting point and success criteria. Offer hints before a worked solution, then explain the solution so learners can compare it with their own approach.
 - **Model readable, documented code.** Use meaningful names and include docstrings for Python functions, methods, and classes written for the lesson. FreeCampus recommends **numpydoc** or **Douki**. Use the course’s chosen style consistently and document relevant parameters, return values, exceptions, and side effects. [numpydoc style guide](https://numpydoc.readthedocs.io/en/latest/format.html) · [Douki YAML docstring format](https://github.com/arxlang/douki)
-- **Use assertions where they give useful feedback.** Check behavior and accept different implementations that meet the same requirements. Cover a representative case and a relevant edge case when applicable. Give failure messages that tell learners what to inspect. For exploratory or visual work, an expected observation may be a better check. These checks support self-review in community lessons.
+- **Use assertions in practice where they give useful feedback.** Check behavior and accept different implementations that meet the same requirements. Cover a representative case and a relevant edge case when applicable. For exploratory or visual work, an expected observation may be a better check. These checks support self-review in community lessons.
 - **Verify the learner’s execution path.** For Colab lessons, use executable cells in the Quarto source and follow the [course publishing workflow](course-author-guide.md#write-course-content-in-quarto). Open the generated notebook using the lesson’s Colab link. In a fresh runtime, run setup and examples in order and try the practice and feedback as a learner would. Make dependencies and data loading explicit. Verify local workflows in the environment the lesson specifies.
 
 #### Example programming lesson
 
-See how a lesson can teach one skill with runnable examples, checkpoints, and
-short quizzes, then ask learners to apply it to a new record. The example
-includes practice assertions and a worked answer.
+See how a lesson can teach one skill with runnable examples, text and assertion
+checkpoints, and short quizzes. The example asks learners to apply the skill
+to a new record and provides practice checks and a worked answer.
 [Read a Record from CSV, JSON, and YAML (.qmd source)](examples/read-records-from-csv-json-and-yaml.qmd)
 
 ## Name activities consistently
