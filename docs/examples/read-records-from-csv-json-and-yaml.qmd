@@ -91,14 +91,20 @@ exact Python type `int` so that boolean values such as `True` are rejected.
 def require_seat_count(value: object) -> int:
     """Return a valid seat count.
 
-    Args:
-        value: The seat count read from a room record.
+    Parameters
+    ----------
+    value : object
+        The seat count read from a room record.
 
-    Returns:
+    Returns
+    -------
+    int
         The positive integer seat count.
 
-    Raises:
-        ValueError: If the value is outside the allowed type or range.
+    Raises
+    ------
+    ValueError
+        If the value is outside the allowed type or range.
     """
     if type(value) is not int or value < 1:
         raise ValueError(f"Expected a positive integer seat count, got {value!r}.")
