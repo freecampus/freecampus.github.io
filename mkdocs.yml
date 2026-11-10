@@ -20,6 +20,7 @@ nav:
       - Get started: contribute.md
       - Community Guide: community-guide.md
       - Course Author Guide: course-author-guide.md
+      - Lesson Editorial Guidelines: lesson-editorial-guidelines.md
 
 extra_css:
   - assets/stylesheets/main.css
