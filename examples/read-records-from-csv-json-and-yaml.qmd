@@ -1,0 +1,213 @@
+---
+title: Read a Record from CSV, JSON, and YAML
+description: Read the same record from three formats and check that its seat count is a positive integer.
+jupyter: python3
+---
+
+## What you will learn
+
+By the end of this lesson, you can read a room record from CSV, JSON, or YAML and
+check that its seat count is a positive integer. A venue might receive a CSV
+export from a spreadsheet, JSON from an app, or YAML edited by a coordinator.
+The same seat-count rule applies to all three sources.
+
+**Before you start.** You should know how to access values in a Python dictionary,
+convert a string with `int()`, and read a `try`/`except` block. Allow about
+25 minutes. To run the code, use Python 3 and [PyYAML](https://pyyaml.org/).
+The examples supply all the data.
+
+If you need PyYAML, run `python -m pip install PyYAML` in your terminal or
+`%pip install PyYAML` in a notebook cell. Run the example cells in order.
+
+## Read a CSV row
+
+This CSV has a header and one room record. Quotes keep the comma in
+`Studio, East` inside the room name. Use `csv.DictReader` to read the header
+as field names. `StringIO` lets the reader use the sample text as a stream.
+
+```{python}
+import csv
+from io import StringIO
+
+csv_text = 'room,seats\n"Studio, East",12\n'
+csv_record = next(csv.DictReader(StringIO(csv_text, newline="")))
+print(csv_record)
+```
+
+**Checkpoint.** Expect `{'room': 'Studio, East', 'seats': '12'}`. The quotes
+around `'12'` in the output show that the CSV reader returned a string. If the
+room name ends at `Studio`, check that your CSV includes the quotes around
+`"Studio, East"` and that you used `DictReader`.
+
+**Quick quiz.** What would `csv_record["seats"] + 1` do at this point?
+
+::: {.callout-note collapse="true"}
+## Quiz feedback
+
+It raises a `TypeError`. The value is the string `"12"`, so convert it to an
+integer before using it in arithmetic.
+:::
+
+## Read the same record from JSON and YAML
+
+`json.loads()` reads JSON from a string. `yaml.safe_load()` reads YAML while
+restricting the Python objects the loader can construct. Both parsers read the
+unquoted `12` in these examples as an integer.
+
+```{python}
+import json
+import yaml
+
+json_text = '{"room": "Studio, East", "seats": 12}'
+yaml_text = 'room: "Studio, East"\nseats: 12\n'
+
+json_record = json.loads(json_text)
+yaml_record = yaml.safe_load(yaml_text)
+print(json_record)
+print(yaml_record)
+```
+
+**Checkpoint.** Both lines should show `{'room': 'Studio, East', 'seats': 12}`.
+If either prints `'12'` with quotes, check whether you quoted the number in
+that input.
+
+**Quick quiz.** Would `{"room": "Studio, East", "seats": "12"}` parse as JSON?
+What type would `seats` have?
+
+::: {.callout-note collapse="true"}
+## Quiz feedback
+
+Yes. The quotes make `"12"` a valid JSON string. The room system still needs
+to check whether that value meets its seat-count rule.
+:::
+
+## Check the seat count
+
+The venue requires a positive integer. Convert the CSV seat count from text,
+then apply the same rule to all three parsed records. The rule accepts the
+exact Python type `int` so that boolean values such as `True` are rejected.
+
+```{python}
+def require_seat_count(value: object) -> int:
+    """Return a valid seat count.
+
+    Parameters
+    ----------
+    value : object
+        The seat count read from a room record.
+
+    Returns
+    -------
+    int
+        The positive integer seat count.
+
+    Raises
+    ------
+    ValueError
+        If the value is outside the allowed type or range.
+    """
+    if type(value) is not int or value < 1:
+        raise ValueError(f"Expected a positive integer seat count, got {value!r}.")
+    return value
+
+
+csv_record["seats"] = int(csv_record["seats"])
+for record in (csv_record, json_record, yaml_record):
+    require_seat_count(record["seats"])
+
+print(csv_record)
+```
+
+**Checkpoint with assertions.** All three records should now contain the room
+name `"Studio, East"` and the integer `12`. The CSV count was converted to
+match the type returned by the JSON and YAML readers. Run this cell to check
+both fields in each record. A passing cell produces no output.
+
+```{python}
+for source, record in [
+    ("CSV", csv_record),
+    ("JSON", json_record),
+    ("YAML", yaml_record),
+]:
+    room = record.get("room")
+    seats = record.get("seats")
+    assert room == "Studio, East", (
+        f"{source}: expected room 'Studio, East', got {room!r}. "
+        "Check the room name in the input and the parsed record."
+    )
+    assert type(seats) is int and seats == 12, (
+        f"{source}: expected the integer 12 for seats, got {seats!r}. "
+        "Check how the seat count was read or converted."
+    )
+```
+
+## Practice with a new room
+
+Read these records into a list called `practice_records`, in CSV, JSON, and
+YAML order. Normalize the CSV count and check all three counts with
+`require_seat_count()`. Then try the quoted YAML count and confirm that your
+validation rejects it.
+
+```{python}
+practice_csv = 'room,seats\nLibrary Annex,18\n'
+practice_json = '{"room": "Library Annex", "seats": 18}'
+practice_yaml = "room: Library Annex\nseats: 18\n"
+quoted_yaml = 'room: Library Annex\nseats: "18"\n'
+```
+
+::: {.callout-tip collapse="true"}
+## Hint
+
+Use the same three readers as in the examples. Apply `int()` to the CSV count.
+For the quoted YAML, pass the parsed value directly to `require_seat_count()`
+so you can observe the validation error.
+:::
+
+After your attempt, run these checks in a new cell. The valid records should
+match, and the quoted YAML count should raise a `ValueError`.
+
+```python
+assert len(practice_records) == 3, "Include one record from each format."
+for record in practice_records:
+    assert record["room"] == "Library Annex", "Check the room name."
+    assert type(record["seats"]) is int, "Check the seat count's type."
+    assert record["seats"] == 18, "Check the parsed seat count."
+
+try:
+    require_seat_count(yaml.safe_load(quoted_yaml)["seats"])
+except ValueError:
+    print("The quoted YAML count was rejected.")
+else:
+    raise AssertionError("The quoted YAML count should be rejected.")
+```
+
+::: {.callout-note collapse="true"}
+## Worked answer
+
+```python
+practice_csv_record = next(
+    csv.DictReader(StringIO(practice_csv, newline=""))
+)
+practice_csv_record["seats"] = int(practice_csv_record["seats"])
+practice_records = [
+    practice_csv_record,
+    json.loads(practice_json),
+    yaml.safe_load(practice_yaml),
+]
+
+for record in practice_records:
+    require_seat_count(record["seats"])
+```
+
+The CSV field starts as text, so it needs conversion. The JSON and YAML
+inputs already supply integers. The quoted YAML input parses successfully
+as text and fails the seat-count rule. The check above shows that distinction.
+:::
+
+## Recap
+
+Use the reader for each format, inspect the types it returns, and validate
+the values against the rules your application needs.
+
+This example takes its topic from the FreeCampus Python lesson
+[Move Records Between CSV, JSON, YAML, and Python](https://github.com/freecampus/python/blob/main/docs/courses/python-foundations/milestones/reliable-programs/units/files-paths-external-data/csv-json-yaml-records.qmd).
