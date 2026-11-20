@@ -77,10 +77,10 @@ materials should be available to everyone, we would love your help.
 
 [Contribute to FreeCampus →](contribute.md){ .inline-action }
 
-The FreeCampus website is developed and maintained through
-[SciStitch](https://scistitch.com/). Community Courses are authored and
-improved by volunteer educators and contributors, independently of the
-separate App. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/)
+[SciStitch](https://scistitch.com/) leads development and maintenance
+across the FreeCampus ecosystem, encompassing Community Courses and the
+separate FreeCampus App. Open course materials are authored and improved
+by volunteer educators and contributors, independently of the App. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/)
 for institutional support, and every contributor, reviewer, translator,
 developer, learner, and user who helps share and improve these resources.
 

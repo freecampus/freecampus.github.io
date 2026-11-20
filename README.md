@@ -38,7 +38,7 @@ FreeCampus Community Courses bring learners and educators together to create mat
 
 ### Credits and thanks
 
-The FreeCampus website is developed and maintained through [SciStitch](https://scistitch.com/). Course materials are authored and improved by the FreeCampus community; the separate App is a distinct project. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/) for institutional support, and every author, reviewer, translator, designer, developer, learner, and user who shares their knowledge and feedback.
+[SciStitch](https://scistitch.com/) leads development and maintenance of the FreeCampus ecosystem, spanning Community Courses and the separate FreeCampus App. Open course materials are authored and improved by the FreeCampus community; the App has its own operating model. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/) for institutional support, and every author, reviewer, translator, designer, developer, learner, and user who shares their knowledge and feedback.
 
 <p>
   <a href="https://scistitch.com/"><img src="https://scistitch.com/images/logo/wordmark-color.svg" alt="SciStitch" width="160" style="background: #fff; border-radius: 6px; padding: 6px 8px;"></a>
