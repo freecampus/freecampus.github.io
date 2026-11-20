@@ -2,6 +2,8 @@
 
 This repository contains the MkDocs site for [FreeCampus](https://freecampus.org/), a community that creates free learning materials across programming, mathematics, science, and other subjects.
 
+**Website maintenance:** [SciStitch](https://scistitch.com). Course content is developed by the FreeCampus community.
+
 ## Explore and contribute
 
 - [Subjects](https://freecampus.org/subjects/) — find courses and learning materials.
