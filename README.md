@@ -27,3 +27,21 @@ Open <http://127.0.0.1:8000>. To generate the static site in `build/`, run the b
 ```bash
 makim pages.build
 ```
+
+## Support & Acknowledgments
+
+### Help keep quality learning open to everyone
+
+FreeCampus Community Courses bring learners and educators together to create materials that anyone can read and improve. Clear explanations, practical activities, accessible pages, and thoughtful review all take time and care. We welcome educators, developers, translators, reviewers, and learners who want to make those resources more useful.
+
+**[Contribute to FreeCampus](https://freecampus.org/contribute/)**. You can help by improving a lesson, reviewing an explanation, reporting an issue, or working on the open website and learning tools.
+
+### Credits and thanks
+
+[SciStitch](https://scistitch.com/) leads development and maintenance of the FreeCampus ecosystem, spanning Community Courses and the separate FreeCampus App. Open course materials are authored and improved by the FreeCampus community; the App has its own operating model. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/) for institutional support, and every author, reviewer, translator, designer, developer, learner, and user who shares their knowledge and feedback.
+
+<p>
+  <a href="https://scistitch.com/"><img src="https://scistitch.com/images/logo/wordmark-color.svg" alt="SciStitch" width="160" style="background: #fff; border-radius: 6px; padding: 6px 8px;"></a>
+  &nbsp;&nbsp;
+  <a href="https://opensciencelabs.org/"><img src="https://scistitch.com/assets/osl-logo.svg" alt="Open Science Labs" width="128" style="background: #fff; border-radius: 6px; padding: 6px 8px;"></a>
+</p>
