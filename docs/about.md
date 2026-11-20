@@ -65,3 +65,28 @@ Educators and practitioners can help shape our courses through the [Instructor N
 Our public community courses have no admissions process or prescribed pace. You are welcome whether you are meeting a subject for the first time, returning after years away, or helping someone else understand it more deeply.
 
 [Help improve a course →](contribute.md){ .inline-action }
+
+## Support & Acknowledgments
+
+### Help keep quality learning open
+
+FreeCampus grows when people share what they know. Every reviewed lesson, clear
+example, translation, accessibility improvement, and bug report can make
+independent learning easier for someone else. If you believe good educational
+materials should be available to everyone, we would love your help.
+
+[Contribute to FreeCampus →](contribute.md){ .inline-action }
+
+The FreeCampus website is developed and maintained through
+[SciStitch](https://scistitch.com/). Community Courses are authored and
+improved by volunteer educators and contributors, independently of the
+separate App. We thank [Open Science Labs (OSL)](https://opensciencelabs.org/)
+for institutional support, and every contributor, reviewer, translator,
+developer, learner, and user who helps share and improve these resources.
+
+<p>
+  <a href="https://scistitch.com/"><img src="https://scistitch.com/images/logo/wordmark-color.svg" alt="SciStitch" width="160"></a>
+  &nbsp;&nbsp;
+  <a href="https://opensciencelabs.org/"><img src="https://scistitch.com/assets/osl-logo.svg" alt="Open Science Labs" width="128"></a>
+</p>
+
